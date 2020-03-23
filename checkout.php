@@ -14,7 +14,7 @@
 
       // inicia a instância do checkout
       var checkout = new PagarMeCheckout.Checkout({
-        encryption_key: 'SUA ENCRYPTION KEY',
+        encryption_key: 'ek_test_QODnUNqxdlTny6RsG6eHrmFaBzldRT',
         success: function(data) {
           console.log(data);
         },
