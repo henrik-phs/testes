@@ -2,7 +2,7 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
-$pagarme = new \PagarMe\Client(PAGARME_API_KEY);
+$pagarme = new \PagarMe\Client("ak_test_bWX2vmWL8FnObv4rgkE6tl5IzFEzEZ");
 
 $transaction = $pagarme->transactions()->create([
   'amount' => 1000,
@@ -23,3 +23,5 @@ $transaction = $pagarme->transactions()->create([
     'email' => 'cliente@email.com'
   ]
 ]);
+
+var_dump($transaction);
