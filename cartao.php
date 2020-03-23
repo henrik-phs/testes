@@ -8,9 +8,9 @@ $transaction = $pagarme->transactions()->create([
   'amount' => 1000,
   'payment_method' => 'credit_card',
   'card_holder_name' => 'Anakin Skywalker',
-  'card_cvv' => '909',
-  'card_number' => '5248480911536618',
-  'card_expiration_date' => '1021',
+  'card_cvv' => '721',
+  'card_number' => '5332682416469495',
+  'card_expiration_date' => '0121',
   'customer' => [
     'external_id' => '1',
     'name' => 'Nome do cliente',
@@ -19,7 +19,7 @@ $transaction = $pagarme->transactions()->create([
     'documents' => [
       [
         'type' => 'cpf',
-        'number' => '00000000000'
+        'number' => '59079169820'
       ]
     ],
     'phone_numbers' => [ '+551199999999' ],
