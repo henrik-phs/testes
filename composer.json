@@ -1,0 +1,14 @@
+{
+    "name": "henrik-phs/testes",
+    "description": "Scripts de testes",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "henrik-phs",
+            "email": "pedrohenriquedasilva100@yahoo.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
