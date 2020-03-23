@@ -10,5 +10,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "pagarme/pagarme-php": "^4.0"
+    }
 }
