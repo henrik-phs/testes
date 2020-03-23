@@ -24,4 +24,9 @@ $transaction = $pagarme->transactions()->create([
   ]
 ]);
 
-var_dump($transaction);
+if($transaction){
+    var_dump($transaction);
+}
+else{
+    echo "Transação não Efetuada";
+}
