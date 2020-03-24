@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+}
+label {
+    margin: 10px 0 5px 0;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    padding: 0 0 1em 0;
+}
+
+.header img {
+    margin: 0 0 10px 0;
+}
+.center {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.cabecalho {
+    padding: 1em;
+    background: #ddd;
+}
+
+.corpo {
+    padding: 1em;
+    background: #fff;
+}
