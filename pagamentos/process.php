@@ -5,8 +5,8 @@ $pagarme = new PagarMe\Client('ak_test_bWX2vmWL8FnObv4rgkE6tl5IzFEzEZ');
 
 $dados = filter_var_array($_POST, FILTER_SANITIZE_STRIPPED);
 
-
-if(@$dados["btn-cartao"]) {
+$cartao = true;
+if($cartao) {
     $transaction = $pagarme->transactions()->create([
         'amount' => $dados["amount"],
         'card_id' => 'card_ci6l9fx8f0042rt16rtb477gj',
