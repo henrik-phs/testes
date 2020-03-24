@@ -68,3 +68,5 @@ $transaction = $pagarme->transactions()->create([
       ]
   ]
 ]);
+
+var_dump($transaction);
