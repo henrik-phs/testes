@@ -5,6 +5,7 @@ $pagarme = new PagarMe\Client('ak_test_bWX2vmWL8FnObv4rgkE6tl5IzFEzEZ');
 
 $dados = filter_var_array($_POST, FILTER_SANITIZE_STRIPPED);
 
+var_dump($pagarme);
 $cartao = true;
 if($cartao) {
     $transaction = $pagarme->transactions()->create([
