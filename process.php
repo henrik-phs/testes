@@ -1,6 +1,6 @@
 <?php
 
-require("../vendor/autoload.php");
+require("vendor/autoload.php");
 $pagarme = new PagarMe\Client('ak_test_bWX2vmWL8FnObv4rgkE6tl5IzFEzEZ');
 
 $dados = filter_var_array($_POST, FILTER_SANITIZE_STRIPPED);
